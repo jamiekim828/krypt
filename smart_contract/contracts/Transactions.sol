@@ -40,3 +40,10 @@ contract Transactions {
         return transactionCount;
     }
 }
+
+
+
+// command : npx hardhat run scripts/deploy.js --network ropsten
+// after run this command, artifacts folder generated
+// inside artifacts - contracts folder - Transactions.sol - Transactions.json - abi
+// abi is the contract binary interface - copy this - client / utils / Transactions.json
